@@ -279,7 +279,7 @@ nav .fa-solid{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(images/background\ image.jpg);
+   background: url(./servicepic.jpg);
     background-size: cover;
     margin: 10px 5%;
     color:white ;
@@ -295,7 +295,7 @@ nav .fa-solid{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .5;
+    opacity: .7;
     z-index: -1;
 }
 #services .service-bottom .icone{

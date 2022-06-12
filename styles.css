@@ -279,7 +279,11 @@ nav .fa-solid{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-   background: url(./servicepic.jpg);
+<<<<<<< HEAD
+   background: url(images/servicepic.jpg);
+=======
+    background-image: url(images/background image.jpg);
+>>>>>>> 1d663b2ade2bfda2f026d61d4f7f5dea2eab6165
     background-size: cover;
     margin: 10px 5%;
     color:white ;

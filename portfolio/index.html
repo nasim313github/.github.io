@@ -189,18 +189,36 @@
                     <h2>3512156062</h2>
                 </div>
             </div>
-            <div class="contact-item">
+            <div class="contact-item" id="send_email_btn">
                 <div class="icon"><img src="images/icons8-messages-48.png" alt=""></div>
                 <div class="contact-info">
                     <h1>E-mail</h1>
                     <h2>nasimsarder2003@gmail.com</h2>
                 </div>
             </div>
+            <div id="formModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <form class="cf" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d956bef7-534f-46e3-a7f9-0cbc1c43174c">
+                        <div class="half left cf">
+                          <input type="text" name="name" id="input-name" placeholder="Name">
+                          <input type="email" name="email" id="input-email" placeholder="Email address">
+                          <input type="text" name="subject" id="input-subject" placeholder="Subject">
+                        </div>
+                        <div class="half right cf">
+                          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                        </div>  
+                        <input type="submit" value="Submit" id="input-submit">
+                      </form>
+                </div>
+            </div>
+        
             <div class="contact-item">
                 <div class="icon"><img src="images/icons8-home-address-48.png" alt=""></div>
                 <div class="contact-info">
                     <h1>Address</h1>
-                    <h2>Torpignattara,Rome,Italy</h2>
+                    <h2>Torremaura,Rome,Italy</h2>
                 </div>
             </div>
         </div>

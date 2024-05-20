@@ -277,13 +277,14 @@ nav .fa-solid{
 }
 #services .service-item{
     flex-basis: 80%;
+    height: 385px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-   background: url(images/servicepic.jpg);
+    background: url(images/servicepic.jpg);
     background-size: cover;
     margin: 10px 5%;
     color:white ;
@@ -488,6 +489,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,37,134,0.926003677
     transition: box-shadow .3s ease;
 }
 #send_email_btn{
+    cursor: pointer;
+}
+#whats_app{
     cursor: pointer;
 }
 /* The Modal (background) */
